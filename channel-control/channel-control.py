@@ -78,4 +78,4 @@ class ChannelControl(commands.Cog):
 
 
 async def setup(bot):
-    bot.add_cog(ChannelControl(bot))
+    await bot.add_cog(ChannelControl(bot))
