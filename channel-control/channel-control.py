@@ -77,5 +77,5 @@ class ChannelControl(commands.Cog):
             await ctx.send('Invalid key')
 
 
-def setup(bot):
+async def setup(bot):
     bot.add_cog(ChannelControl(bot))
